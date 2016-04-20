@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/text_view_question_syllable_fill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_request_syllable_read_fill_question"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/ReadAndAnswer"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/bt_speaker_syllable_listen_fill_question"
+        android:layout_below="@id/text_view_question_syllable_fill"
+        android:layout_width="@dimen/speaker_size"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_action_volume_on"
+        android:background="?attr/selectableItemBackgroundBorderless"/>
+    />
+    <TextView
+        android:id="@+id/tv_syllable_read_fill_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="textStart"
+        android:layout_below="@+id/bt_speaker_syllable_listen_fill_question"
+        android:gravity="start"
+        android:textSize="@dimen/inputword_text_size" />
+
+    <EditText
+        android:id="@+id/edit_answer_syllable_read_fill_question"
+        android:layout_below="@id/tv_syllable_read_fill_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button_check_answer_syllable_read_fill_question"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/buton_check_practice_size"
+        android:layout_alignParentBottom="true"
+        android:text="@string/Check"
+        android:background="@drawable/button"
+        android:layout_marginBottom="@dimen/practice_listening_button_check_margin"
+        android:layout_marginLeft="@dimen/practice_listening_button_check_margin"
+        android:layout_marginRight="@dimen/practice_listening_button_check_margin"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/text_image_syllable_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_request_syllable_listen_choice_question"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/ListenAndAnswer"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/word_and_sound_syllable_listen_choice_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_image_syllable_question"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/bt_speaker_syllable_listen_choice_question"
+            android:layout_width="@dimen/speaker_size"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_action_volume_on"
+            android:background="?attr/selectableItemBackgroundBorderless"/>
+        <TextView
+            android:id="@+id/tv_syllable_listen_choice_question"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=""
+            android:textAlignment="textStart"
+            android:gravity="start"
+            android:textSize="@dimen/inputword_text_size" />
+         />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_practice_button"
+        android:layout_above="@+id/button_check_answer_syllable_listen_choice_question"
+        android:layout_marginTop="@dimen/radio_group_margin_top"
+        android:paddingTop="@dimen/radio_group_padding_top">
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/radio_button_syllable_listen_choice_question_A"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ABCD"/>
+            <RadioButton
+                android:id="@+id/radio_button_syllable_listen_choice_question_B"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ABCD"/>
+        </RadioGroup>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/button_check_answer_syllable_listen_choice_question"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/buton_check_practice_size"
+        android:layout_alignParentBottom="true"
+        android:text="@string/Check"
+        android:background="@drawable/button"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        />
+
+</RelativeLayout>

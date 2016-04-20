@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_horizontal_margin">
+    <ImageView
+        android:id="@+id/img_smile"
+        android:layout_width="@dimen/img_sad_icon_size"
+        android:layout_height="@dimen/img_sad_icon_size"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/smile"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_congratulation_practice"
+        android:layout_below="@id/img_smile"
+        android:text="@string/default_congratulation"
+        android:textSize="@dimen/default_congratulation_text_size"
+        android:layout_centerInParent="true"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_continue_after_practice"
+        android:text="@string/continue_after_practice"
+        android:layout_alignParentBottom="true"
+        android:background="@color/button_keyboard_practice_color_enable"/>
+
+</RelativeLayout>

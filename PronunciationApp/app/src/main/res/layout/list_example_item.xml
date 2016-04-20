@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tv_example_item_word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:textStyle="bold"
+        android:text="book"/>
+    <TextView
+        android:id="@+id/tv_example_item_phonetic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_below="@id/tv_example_item_word"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:text="book"/>
+    <ImageView
+        android:id="@+id/img_speak_example"
+        android:layout_width="@dimen/speaker_example_size"
+        android:layout_height="@dimen/speaker_example_size"
+        android:src="@drawable/speaker"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:background="?attr/selectableItemBackgroundBorderless"/>
+
+</RelativeLayout>

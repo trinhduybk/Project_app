@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/practice_header"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/activity_horizontal_margin">
+    <LinearLayout
+        android:id="@+id/layout_star_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/practice_star_one"
+            android:layout_width="@dimen/star_practice_size"
+            android:layout_height="match_parent"
+            android:src="@drawable/star_yealow"/>
+        <ImageView
+            android:id="@+id/practice_star_two"
+            android:layout_width="@dimen/star_practice_size"
+            android:layout_height="match_parent"
+            android:src="@drawable/star_yealow"/>
+        <ImageView
+            android:id="@+id/practice_star_three"
+            android:layout_width="@dimen/star_practice_size"
+            android:layout_height="@dimen/star_practice_size"
+            android:src="@drawable/star_yealow"/>
+        <TextView
+            android:id="@+id/tvScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 points"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="@dimen/start_result_margin"
+            />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progress_score"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_star_score"
+        android:layout_marginTop="3dp"
+        android:max="100"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/Disable" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <stroke android:width="1.0dip" android:color="#ffffffff" />
+            <gradient android:startColor="@color/background_color" android:endColor="#ffffffff" android:angle="90.0" android:centerColor="@color/background_color" />
+            <solid android:color="@color/colorPrimary"/>
+        </shape>
+    </item>
+</selector>

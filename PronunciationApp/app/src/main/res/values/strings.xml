@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">PronunciationApp</string>
+    <string name="img">Image</string>
+    <string name="sound21">b</string>
+    <string name="sound02">ʊə</string>
+    <string name="sound03">aɪ</string>
+    <string name="sound04">ɔɪ</string>
+    <string name="sound05">əʊ</string>
+    <string name="sound06">eə</string>
+    <string name="sound07">aʊ</string>
+    <string name="sound08">eɪ</string>
+    <string name="sound09">i:</string>
+    <string name="sound10">u:</string>
+    <string name="sound11">ɑː</string>
+    <string name="sound22">d</string>
+    <string name="sound12">ɔː</string>
+    <string name="sound13">ɜ:</string>
+    <string name="sound29">p</string>
+    <string name="sound30">t</string>
+    <string name="sound31">tʃ</string>
+    <string name="sound32">k</string>
+    <string name="sound33">f</string>
+    <string name="sound34">θ</string>
+    <string name="sound35">s</string>
+    <string name="sound36">ʃ</string>
+    <string name="sound23">dʒ</string>
+    <string name="sound37">m</string>
+    <string name="sound38">n</string>
+    <string name="sound39">ŋ</string>
+    <string name="sound40">h</string>
+    <string name="sound41">l</string>
+    <string name="sound42">r</string>
+    <string name="sound43">w</string>
+    <string name="sound44">j</string>
+    <string name="sound14">ɪ</string>
+    <string name="sound15">ʊ</string>
+    <string name="sound24">g</string>
+    <string name="sound16">ʌ</string>
+    <string name="sound17">ɒ</string>
+    <string name="sound18">ə</string>
+    <string name="sound19">e</string>
+    <string name="sound20">æ</string>
+    <string name="sound25">v</string>
+    <string name="sound26">ð</string>
+    <string name="sound27">z</string>
+    <string name="sound28">ʒ</string>
+    <string name="sound01">ɪə</string>
+    <string name="sound_1_example">beer,near,here,easier</string>
+    <string name="None">Nothing</string>
+    <string name="NoData">NoData</string>
+    <string name="Check">Kiểm Tra</string>
+    <string name="Answer">Answer</string>
+    <string name="listening_practice_sound">Nghe và chọn phiên âm</string>
+    <string name="reading_practice_sound">Từ có phiên âm dưới đây</string>
+    <string name="writing_practice_sound">Viết phiên âm của từ</string>
+    <string name="checking">Đang Kiểm Tra...</string>
+    <string name="next_question">Tiếp Theo</string>
+    <string name="finish">Kết Thúc</string>
+    <string name="default_congratulation">Bạn Đã Hoàn Thành Bài Practice!</string>
+    <string name="continue_after_practice">Tiếp Tục</string>
+    <string name="fail_practice">Bạn chưa hoàn thành bài practice!</string>
+    <string name="speech_prompt">Say something&#8230;</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+    <string name="tap_on_mic">Tap on mic to speak</string>
+    <string name="speaking_practice_sound">Pronounce this word correctly</string>
+    <string name="practice_listening_introduce">Nghe và chọn phiên âm của từ</string>
+    <string name="ListenAndAnswer">Listen and choose correct answer</string>
+    <string name="ReadAndAnswer">Read and answer question</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_friends">Friend</string>
+    <string name="nav_item_notifications">Notification</string>
+    <string name="One_Syllable">One Syllable Word</string>
+    <string name="Two_Syllable">Two Syllable Word</string>
+    <string name="Three_Syllable">Three Syllable Word</string>
+    <string name="Four_Syllable">Four Syllable Word</string>
+    <string name="Rule_One_Word_Stress">Rule One</string>
+    <string name="Rule_Two">Rule Two</string>
+    <string name="Rule_Two_Word_Stress">Rule Two</string>
+    <string name="Rule_Three_Word_Stress">Rule Three</string>
+    <string name="Rule_Four_Word_Stress">Rule Four</string>
+    <string name="Rule_Five_Word_Stress">Rule Five</string>
+    <string name="sentence_stress_example_title">The word in UPPERCASE will be stressed</string>
+    <string name="linking_stress_example_title">The word in UPPERCASE will link together</string>
+    <string name="Five_Syllable">Five Syllable Word</string>
+    <string name="link_google_play_for_share">Link Google</string>
+    <string name="share_app_title">Choose sharing</string>
+    <string name="DeveloperTeam">This app was developed by Uncensored Team</string>
+    <string name="help_improve">We are appriciated with your feedback.Please do not hesitate to contact us with the information below</string>
+    <string name="Facebook">Facebook:</string>
+    <string name="link_facebook">http://www.facebook.com</string>
+    <string name="developer_email">traibachkhoa2012@gmail.com</string>
+    <string name="subject_email">Feedback Pronunciation App</string>
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_friends</item>
+        <item>@string/nav_item_notifications</item>
+    </string-array>
+
+
+</resources>
